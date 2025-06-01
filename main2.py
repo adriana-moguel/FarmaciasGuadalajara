@@ -2,6 +2,7 @@ import flet as ft
 import mysql.connector
 from datetime import datetime
 import tempfile
+import re
 from decimal import Decimal
 
 class DatabaseManager:
